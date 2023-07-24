@@ -1,11 +1,11 @@
-import IncomeComponent from "../component/IncomeComponent.jsx";
+import IncomeComponent from "../component/fromComponent.jsx";
 import Layout from "../layout/Layout.jsx";
 
 function IncomePage() {
   return (
     <Layout title="ইনকাম">
       {
-        <IncomeComponent />
+        <IncomeComponent value="input income"/>
       }
      
     </Layout>
