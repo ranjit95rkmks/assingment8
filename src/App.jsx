@@ -8,7 +8,7 @@ function App() {
 
   return (
     <BrowserRouter>
-    <Routes className="flex flex-col">
+    <Routes >
       <Route path="/" element={<HomePage/>} />
       <Route path="/income" element={<IncomePage/>} />
       <Route path="/expense" element={<ExpensePage/>} />
