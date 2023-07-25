@@ -36,7 +36,7 @@ const fromComponent = ({value}) => {
     <div className="container mx-auto px-4 mt-8">
     <div className="mb-4">
       <input
-        className="appearance-none border rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline"
+        className="input input-bordered input-accent w-full max-w-xs"
         type="text"
         placeholder={value}
         value={newItemText}
